@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/**
- * main -use puts to print the sentence "programming is like building a multilingual puzzle
- * Return: 0 if exited properly, non-zero otherwise
+/*
+ * main - Entry point
+ * Return: 0 if exited properly
  */
 int main(void)
 {
