@@ -26,13 +26,25 @@ void print_remaining_days(int month, int day, int year)
 	{
 		if (month == 2 && day == 60)
 		{
-			printf("Leap year: %02d/%02d/%04d\n", month, day -
+			printf("Invalid year: %02d/%02d/%04d\n", month, day -
 			       31, year);
 		}
 		else
 		{
 			printf("Day of the year: %d\n", day);
 			printf("Remaining days: %d\n", 365 - day);
+		}
+		if (year % 400 == 0)
+		{
+			printf("%d is a leap year.", year);
+		}
+		else if (year % 100 == 0)
+		{
+			printf("%d is a leap year.", year);
+		}
+		else
+		{
+			printf("%d is not a leap year.", year);
 		}
 	}
 }
