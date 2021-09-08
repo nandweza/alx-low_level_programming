@@ -1,4 +1,4 @@
-**Readme.md**
+**0x06-Pointers_Arrays_Strings**
 <br>
 <br>
 File 0-strcat.c: strcat is a function that concatenates two strings.
