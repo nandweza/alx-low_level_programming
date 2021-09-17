@@ -6,10 +6,15 @@
  * @argc: number of count of arguments
  * @argv: array of string
  *
- * Return: Always 0 success.
+ * Return: Always 0 (success)
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
-	printf("argc = %d\n", argc);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+	printf("%s\n", argv[i]);
+	}
 	return (0);
 }
