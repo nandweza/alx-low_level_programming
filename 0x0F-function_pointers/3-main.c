@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * main - program that perfoms simple operations
+ * main - program that perfroms simple operations
  * @argc: number of arguments
  * @argv: array of arguments
  *
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 	if (!func)
 	{
 		printf("Error\n");
-	        exit(99);
+		exit(99);
 	}
 
 	o = *argv[2];
