@@ -1,8 +1,8 @@
-CC = gcc #compiler to use
-SRC = main.c school.c #the .c files
-OBJ = $(SRC:.c=.o) #the .o files
-NAME = school #name of the executable
-RM = rm -f #the program to delete files.
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
+NAME = school
+RM = rm -f
 
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
