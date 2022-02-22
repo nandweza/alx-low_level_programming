@@ -4,7 +4,7 @@
 <br>
 <p>This repository contains low level programming languages and projects tackled at ALX Holberton School.</p>
 <br>
-<h2>Table of contents.</h2>
+<h2>Table Of Contents.</h2>
 <br>
 <ol>
   <li>0x00-hello_world</li>
